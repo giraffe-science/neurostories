@@ -10,24 +10,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="949f0748-0c84-46ac-9c3b-2723b172c3fd" name="Default Changelist" comment="switch to using wp-env">
+    <list default="true" id="949f0748-0c84-46ac-9c3b-2723b172c3fd" name="Default Changelist" comment="Updating docs">
+      <change afterPath="$PROJECT_DIR$/infinite-posts/src/InfinitePosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infinite-posts/src/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infinite-posts/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infinite-posts/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infinite-posts/build/index.asset.php" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/index.asset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infinite-posts/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/style-index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infinite-posts/build/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infinite-posts/infinite-posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/infinite-posts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infinite-posts/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infinite-posts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/src/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/src/edit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infinite-posts/src/save.js" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/src/save.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +61,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.jsOptions" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608464252832</updated>
-      <workItem from="1608464254157" duration="5875000" />
+      <workItem from="1608464254157" duration="7886000" />
     </task>
     <task id="LOCAL-00001" summary="Basic wordpress docker compose">
       <created>1608472142113</created>
@@ -94,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608472514973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updating docs">
+      <created>1608481505110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608481505110</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,16 +129,41 @@
     <MESSAGE value="Basic wordpress docker compose" />
     <MESSAGE value="npx @wordpress/create-block infinite-posts" />
     <MESSAGE value="switch to using wp-env" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch to using wp-env" />
+    <MESSAGE value="Updating docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating docs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="575" y="219" key="RollbackChangesDialog" timestamp="1608472483885">
+    <state width="1494" height="250" key="GridCell.Tab.0.bottom" timestamp="1608483198219">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state x="575" y="219" key="RollbackChangesDialog/0.23.1536.937@0.23.1536.937" timestamp="1608472483885" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1608472968434">
+    <state width="1494" height="250" key="GridCell.Tab.0.bottom/0.23.1536.937@0.23.1536.937" timestamp="1608483198219" />
+    <state width="1494" height="250" key="GridCell.Tab.0.center" timestamp="1608483198218">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1536.937@0.23.1536.937" timestamp="1608472968434" />
+    <state width="1494" height="250" key="GridCell.Tab.0.center/0.23.1536.937@0.23.1536.937" timestamp="1608483198218" />
+    <state width="1494" height="250" key="GridCell.Tab.0.left" timestamp="1608483198218">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state width="1494" height="250" key="GridCell.Tab.0.left/0.23.1536.937@0.23.1536.937" timestamp="1608483198218" />
+    <state width="1494" height="250" key="GridCell.Tab.0.right" timestamp="1608483198219">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state width="1494" height="250" key="GridCell.Tab.0.right/0.23.1536.937@0.23.1536.937" timestamp="1608483198219" />
+    <state x="575" y="219" key="RollbackChangesDialog" timestamp="1608481452355">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state x="575" y="219" key="RollbackChangesDialog/0.23.1536.937@0.23.1536.937" timestamp="1608481452355" />
+    <state x="269" y="130" key="SettingsEditor" timestamp="1608482588255">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state x="269" y="130" key="SettingsEditor/0.23.1536.937@0.23.1536.937" timestamp="1608482588255" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1608482593712">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1536.937@0.23.1536.937" timestamp="1608482593712" />
+    <state x="566" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608482293910">
+      <screen x="0" y="23" width="1536" height="937" />
+    </state>
+    <state x="566" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1536.937@0.23.1536.937" timestamp="1608482293910" />
   </component>
 </project>

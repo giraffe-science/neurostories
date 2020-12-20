@@ -16,11 +16,6 @@ import { __ } from '@wordpress/i18n';
  */
 export default function save() {
 	return (
-		<p>
-			{ __(
-				'Infinite Posts – hello from the saved content!',
-				'infinite-posts'
-			) }
-		</p>
+		<div className="infinite-posts"/>
 	);
 }

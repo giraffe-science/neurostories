@@ -53,12 +53,23 @@ function create_block_infinite_posts_block_init() {
 		filemtime( "$dir/$style_css" )
 	);
 
+	// see https://github.com/Oberhauser-Dev/gb-fullcalendar/blob/master/gb-fullcalendar.php
+	$client_js = 'build/client.js';
+	wp_register_script(
+		'infinite-posts-block-client',
+		plugins_url($client_js, __FILE__),
+		$script_asset['dependencies'],
+		$script_asset['version']
+	);
+
 	register_block_type( 'create-block/infinite-posts', array(
 		'editor_script' => 'create-block-infinite-posts-block-editor',
 		'editor_style'  => 'create-block-infinite-posts-block-editor',
 		'style'         => 'create-block-infinite-posts-block',
+		 'script' => 'infinite-posts-block-client',
 	) );
 
 	wp_enqueue_script('infinite-posts', $index_js, array( 'wp-api' ) );
+
 }
 add_action( 'init', 'create_block_infinite_posts_block_init' );
