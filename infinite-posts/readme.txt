@@ -1,5 +1,5 @@
 === Infinite Posts ===
-Contributors:      The WordPress Contributors
+Contributors:      Scientific Giraffe
 Tags:              block
 Requires at least: 5.6.0
 Tested up to:      5.6.0

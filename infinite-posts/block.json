@@ -4,7 +4,7 @@
 	"title": "Infinite Posts",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"description": "Block to add infinite scrolling blog posts.",
 	"textdomain": "infinite-posts",
 	"supports": {
 		"html": false

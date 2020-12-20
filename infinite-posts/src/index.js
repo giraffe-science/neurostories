@@ -49,7 +49,7 @@ registerBlockType( 'create-block/infinite-posts', {
 	 * It will be shown in the Block Tab in the Settings Sidebar.
 	 */
 	description: __(
-		'Example block written with ESNext standard and JSX support – build step required.',
+		'Widget to display blog posts with infinite scroll',
 		'infinite-posts'
 	),
 

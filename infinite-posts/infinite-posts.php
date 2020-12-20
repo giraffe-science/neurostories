@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:     Infinite Posts
- * Description:     Example block written with ESNext standard and JSX support – build step required.
+ * Description:     Block to add infinite scrolling blog posts
  * Version:         0.1.0
- * Author:          The WordPress Contributors
+ * Author:          Scientific Giraffe
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:     infinite-posts
@@ -28,6 +28,7 @@ function create_block_infinite_posts_block_init() {
 	}
 	$index_js     = 'build/index.js';
 	$script_asset = require( $script_asset_path );
+
 	wp_register_script(
 		'create-block-infinite-posts-block-editor',
 		plugins_url( $index_js, __FILE__ ),
@@ -57,5 +58,7 @@ function create_block_infinite_posts_block_init() {
 		'editor_style'  => 'create-block-infinite-posts-block-editor',
 		'style'         => 'create-block-infinite-posts-block',
 	) );
+
+	wp_enqueue_script('infinite-posts', $index_js, array( 'wp-api' ) );
 }
 add_action( 'init', 'create_block_infinite_posts_block_init' );
