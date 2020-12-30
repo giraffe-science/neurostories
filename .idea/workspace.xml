@@ -11,23 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="949f0748-0c84-46ac-9c3b-2723b172c3fd" name="Default Changelist" comment="Crappy but possibly working version">
-      <change afterPath="$PROJECT_DIR$/infinite-posts/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/client.asset.php" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/client.asset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/client.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/index.asset.php" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/index.asset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/index.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/style-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/build/style-index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/build/style-index.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infinite-posts/src/InfinitePosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/infinite-posts/src/InfinitePosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/edit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +65,7 @@
       <updated>1608464252832</updated>
       <workItem from="1608464254157" duration="9116000" />
       <workItem from="1608742442631" duration="1380000" />
-      <workItem from="1609241588182" duration="6849000" />
+      <workItem from="1609241588182" duration="7472000" />
     </task>
     <task id="LOCAL-00001" summary="Basic wordpress docker compose">
       <created>1608472142113</created>
@@ -179,10 +164,10 @@
       <screen x="0" y="23" width="1536" height="937" />
     </state>
     <state x="269" y="130" key="SettingsEditor/0.23.1536.937@0.23.1536.937" timestamp="1608482588255" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1609333432050">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1609334024505">
       <screen x="0" y="23" width="1536" height="937" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1536.937@0.23.1536.937" timestamp="1609333432050" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1536.937@0.23.1536.937" timestamp="1609334024505" />
     <state x="566" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608482293910">
       <screen x="0" y="23" width="1536" height="937" />
     </state>

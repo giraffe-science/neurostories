@@ -3,15 +3,13 @@
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-i18n/
  */
-import { __ } from '@wordpress/i18n';
-
 /**
  * React hook that is used to mark the block wrapper element.
  * It provides all the necessary props like the class name.
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import {useBlockProps} from '@wordpress/block-editor';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -31,11 +29,14 @@ import './editor.scss';
  */
 export default function Edit() {
 	return (
-		<p { ...useBlockProps() }>
-			{ __(
-				'Infinite Posts – hello from the editor!',
-				'infinite-posts'
-			) }
-		</p>
+		<div {...useBlockProps()}>
+			<p>
+				Custom wordpress plugin to add a block that contains an infinite scrolling list of posts.
+			</p>
+			<p>See: <a href="https://github.com/giraffe-science/wordpress-infinite-scroll">
+				https://github.com/giraffe-science/wordpress-infinite-scroll
+			</a>
+			</p>
+		</div>
 	);
 }
