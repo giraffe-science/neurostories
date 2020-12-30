@@ -1,7 +1,7 @@
 import InfiniteScroll from 'react-infinite-scroller';
 import {useState} from "react"
 
-function article(post, count, columnCount = 3) {
+function article(post) {
 	console.log(post);
 	return <article id={post.id}
 									key={post.id}
@@ -36,6 +36,10 @@ export function InfinitePosts() {
 					setHasMore(false);
 				} else {
 					setPosts([...posts, ...data])
+					jQuery( 'abbr.c2c-text-hover[title!=""]' ).qtip({
+						style: { classes: 'text-hover-qtip' }
+					});
+
 				}
 			})
 			.catch(err => {
