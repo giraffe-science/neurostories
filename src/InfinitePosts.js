@@ -5,7 +5,7 @@ function article(post, count, columnCount = 3) {
 	console.log(post);
 	return <article id={post.id}
 									key={post.id}
-									className="col-md-4 col-sm-4 col-12"
+									className="col-sm12 col-md-6 col-4"
 									style={{}}>
 		<div className="">
 			<a href={post.link} rel="bookmark" title={post.title.rendered}>
